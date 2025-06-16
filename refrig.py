@@ -54,7 +54,7 @@ def converter_para_kw(valor, unidade):
         return 0, "Unidade não reconhecida."
 
 # Interface Streamlit
-st.title("Calculadora de Performance de Ar-Condicionado Split")
+st.title("Calculadora de Performance - AC Split")
 
 st.header("Entradas do Sistema")
 tipo_sistema = st.selectbox("Tipo de Alimentação Elétrica", ["Monofásico (220V F+N)", "Trifásico (220V + 220V + 220V)"])
